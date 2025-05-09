@@ -1,0 +1,38 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="FatalErrorMessageText" xml:space="preserve">
+        <value>An unforeseen error has occurred. Any partial changes to your document have been undone.</value>
+    </data>
+    <data name="ExportFileNotSelected" xml:space="preserve">
+        <value>Cannot export DOT as no file have been selected</value>
+    </data>
+    <data name="ErrorNoShapesOnPage" xml:space="preserve">
+        <value>There is nothing to layout, there are no connected shapes on the page</value>
+    </data>
+    <data name="ErrorNoVisioPageIsActive" xml:space="preserve">
+        <value>No Visio page is active</value>
+    </data>
+    <data name="DotImporter_ImportDot_Layouting" xml:space="preserve">
+        <value>Layouting</value>
+    </data>
+    <data name="DotImporter_ImportDot_Use_Visio_layouting" xml:space="preserve">
+        <value>Use Visio layouting?</value>
+    </data>
+    <data name="PageAlreadyExistsCreateNewPrompt" xml:space="preserve">
+        <value>A page with the same name as the file to be opened already exists, should I import it to a new page? (Yes - create on a new page, No - clear the current page and import)</value>
+    </data>
+    <data name="AnotherProcessAlreadyRunning" xml:space="preserve">
+        <value>Another process is already running</value>
+    </data>
+</root>

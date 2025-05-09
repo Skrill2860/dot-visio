@@ -1,0 +1,95 @@
+﻿<root>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>1.3</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+    </resheader>
+    <data name="ActionsGroup" xml:space="preserve">
+        <value>Основные функции</value>
+    </data>
+    <data name="BtnImportDot" xml:space="preserve">
+        <value>Импортировать DOT</value>
+    </data>
+    <data name="BtnImportDotGraphViz" xml:space="preserve">
+        <value>Импортировать DOT через GraphViz</value>
+    </data>
+    <data name="BtnExportDot" xml:space="preserve">
+        <value>Экспортировать DOT</value>
+    </data>
+    <data name="LayoutGroup" xml:space="preserve">
+        <value>Параметры GraphViz</value>
+    </data>
+    <data name="Algorithm" xml:space="preserve">
+        <value>Алгоритм</value>
+    </data>
+    <data name="RankDirection" xml:space="preserve">
+        <value>Направление ранжирования</value>
+    </data>
+    <data name="OverlapHandling" xml:space="preserve">
+        <value>Обработка перекрытий фигур</value>
+    </data>
+    <data name="AspectRatio" xml:space="preserve">
+        <value>Соотношение сторон</value>
+    </data>
+    <data name="ConnectorGroup" xml:space="preserve">
+        <value>Параметры коннекторов</value>
+    </data>
+    <data name="ConnectorStyle" xml:space="preserve">
+        <value>Тип коннектора</value>
+    </data>
+    <data name="ConnectionPoints" xml:space="preserve">
+        <value>Точки крепления коннекторов</value>
+    </data>
+    <data name="AdvancedGroup" xml:space="preserve">
+        <value>Расширенные параметры</value>
+    </data>
+    <data name="StrictMode" xml:space="preserve">
+        <value>Игнорировать дублированные рёбра</value>
+    </data>
+    <data name="DrawBoundingBoxes" xml:space="preserve">
+        <value>Отрисовывать рамки кластеров</value>
+    </data>
+    <data name="CommandOptions" xml:space="preserve">
+        <value>Параметры GraphViz</value>
+    </data>
+    <data name="RandomSeed" xml:space="preserve">
+        <value>Случайное зерно</value>
+    </data>
+    <data name="DirectedGraph" xml:space="preserve">
+        <value>Ориентированный граф</value>
+    </data>
+    <data name="AppSettings" xml:space="preserve">
+        <value>Настройки приложения</value>
+    </data>
+    <data name="UpdateWhileDrawing" xml:space="preserve">
+        <value>Обновлять страницу при отрисовке</value>
+    </data>
+    <data name="LimitFileSize" xml:space="preserve">
+        <value>Ограничивать размер файла</value>
+    </data>
+    <data name="ExtensionLanguage" xml:space="preserve">
+        <value>Язык расширения</value>
+    </data>
+    <data name="LanguageChangedNeedRebootWarning" xml:space="preserve">
+        <value>Язык был изменён. Пожалуйста, перезагрузите Visio чтобы изменения применились к интерфейсу.</value>
+    </data>
+    <data name="BtnLayoutWithGraphViz" xml:space="preserve">
+        <value>Изменить макет через GraphViz</value>
+    </data>
+    <data name="BtnRedrawBoundingBoxes" xml:space="preserve">
+        <value>Перерисовать рамки кластеров</value>
+    </data>
+    <data name="FileLimitTurnedOffWarningLiabilityWaiver" xml:space="preserve">
+        <value>Расширение не гарантирует стабильность в случае работы с графами, которые превышают лимит по размеру.</value>
+    </data>
+    <data name="ExportPositions" xml:space="preserve">
+        <value>Экспортировать позиции</value>
+    </data>
+</root>
