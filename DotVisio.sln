@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "slnbuild", "slnbuild", "{77D86ED6-A050-4B27-AE39-29113900D3BA}"
+	ProjectSection(SolutionItems) = preProject
+		Directory.Build.props = Directory.Build.props
+		Directory.Packages.props = Directory.Packages.props
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{45F1C451-3EBD-4C5F-8E4E-594264D0A967}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "src\Common\Common.csproj", "{CB0C46D4-AA43-4A9B-8365-98E0D1459926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotCore", "src\DotCore\DotCore.csproj", "{220183D3-D5C1-4241-9080-3D59F341F0FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotVisio", "src\DotVisio\DotVisio.csproj", "{D32D72C2-6816-45C1-88F0-22CABC11ECED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GoldParser", "src\GoldParser\GoldParser.csproj", "{1153D007-098D-41CA-99C6-BB740CB18B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GUI", "src\GUI\GUI.csproj", "{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D32D72C2-6816-45C1-88F0-22CABC11ECED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D32D72C2-6816-45C1-88F0-22CABC11ECED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D32D72C2-6816-45C1-88F0-22CABC11ECED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D32D72C2-6816-45C1-88F0-22CABC11ECED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1153D007-098D-41CA-99C6-BB740CB18B60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1153D007-098D-41CA-99C6-BB740CB18B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1153D007-098D-41CA-99C6-BB740CB18B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1153D007-098D-41CA-99C6-BB740CB18B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45F1C451-3EBD-4C5F-8E4E-594264D0A967}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45F1C451-3EBD-4C5F-8E4E-594264D0A967}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45F1C451-3EBD-4C5F-8E4E-594264D0A967}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45F1C451-3EBD-4C5F-8E4E-594264D0A967}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB0C46D4-AA43-4A9B-8365-98E0D1459926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB0C46D4-AA43-4A9B-8365-98E0D1459926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB0C46D4-AA43-4A9B-8365-98E0D1459926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB0C46D4-AA43-4A9B-8365-98E0D1459926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{220183D3-D5C1-4241-9080-3D59F341F0FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{220183D3-D5C1-4241-9080-3D59F341F0FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{220183D3-D5C1-4241-9080-3D59F341F0FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{220183D3-D5C1-4241-9080-3D59F341F0FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D32D72C2-6816-45C1-88F0-22CABC11ECED} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+		{1153D007-098D-41CA-99C6-BB740CB18B60} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+		{45F1C451-3EBD-4C5F-8E4E-594264D0A967} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+		{CB0C46D4-AA43-4A9B-8365-98E0D1459926} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+		{220183D3-D5C1-4241-9080-3D59F341F0FB} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+		{5B6F88E5-AEDA-4C60-BC2A-ECFD630D5210} = {FF8BCF37-CB2A-4E5D-88C7-592C4068EB36}
+	EndGlobalSection
+EndGlobal
